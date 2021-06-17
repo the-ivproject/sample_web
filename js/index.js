@@ -1,7 +1,7 @@
 
 
-const SPREADSHEET_ID = '10OXHlQ6MX8v3XZo31SYS1swNMb1kNCvPLuY9ZzNNBuQ'
-const SPREADSHEET_KEY = 'AIzaSyCl1KgoO1DBJj_En9Gs0z4XIc91uGChwS8'
+const SPREADSHEET_ID = ''
+const SPREADSHEET_KEY = ''
 
 const DATA = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values:batchGet?dateTimeRenderOption=FORMATTED_STRING&majorDimension=ROWS&ranges=A1%3AZ1000&valueRenderOption=FORMATTED_VALUE&key=${SPREADSHEET_KEY}`
 
